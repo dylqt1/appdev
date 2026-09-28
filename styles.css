@@ -1,0 +1,42 @@
+ul{
+    list-style-type: none;
+}
+
+.ust-header{
+    display:flex;
+    flex-direction:column;
+    line-height: 1.15;
+
+}
+
+
+
+.main-menu{
+    display:flex;
+    list-style: none;
+    gap:20px;
+}
+
+.main-header{
+    postion:sticky;
+    top:0;
+    width:100%;
+    z-index: 100;
+    border-bottom: 1px solid #1f1f1f;
+    
+}
+
+.nav-container{
+    max-width:1300px;
+    margin: 0 auto;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-choices{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}   
